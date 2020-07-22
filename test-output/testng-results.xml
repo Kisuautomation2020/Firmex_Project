@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Firmex Test Automation Suite" duration-ms="145055" started-at="2020-07-22T18:28:49Z" finished-at="2020-07-22T18:31:14Z">
+    <groups>
+    </groups>
+    <test name="Firmex Login Test Cases" duration-ms="145055" started-at="2020-07-22T18:28:49Z" finished-at="2020-07-22T18:31:14Z">
+      <class name="com.firmex.tests.FirmexHomePageTest">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.firmex.tests.FirmexHomePageTest@14bf9759]" name="setUP" is-config="true" duration-ms="15587" started-at="2020-07-22T18:28:52Z" finished-at="2020-07-22T18:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="verifyfirmexHomePageTest()[pri:1, instance:com.firmex.tests.FirmexHomePageTest@14bf9759]" name="verifyfirmexHomePageTest" duration-ms="125" started-at="2020-07-22T18:29:08Z" finished-at="2020-07-22T18:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyfirmexHomePageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.firmex.tests.FirmexHomePageTest@14bf9759]" name="tearDown" is-config="true" duration-ms="11592" started-at="2020-07-22T18:29:08Z" finished-at="2020-07-22T18:29:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.firmex.tests.FirmexHomePageTest@14bf9759]" name="setUP" is-config="true" duration-ms="16690" started-at="2020-07-22T18:29:47Z" finished-at="2020-07-22T18:30:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="clickonloginBtnTest()[pri:2, instance:com.firmex.tests.FirmexHomePageTest@14bf9759]" name="clickonloginBtnTest" duration-ms="548" started-at="2020-07-22T18:30:04Z" depends-on-methods="com.firmex.tests.FirmexHomePageTest.verifyfirmexHomePageTest" finished-at="2020-07-22T18:30:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonloginBtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.firmex.tests.FirmexHomePageTest@14bf9759]" name="tearDown" is-config="true" duration-ms="10458" started-at="2020-07-22T18:30:04Z" finished-at="2020-07-22T18:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.firmex.tests.FirmexHomePageTest -->
+      <class name="com.firmex.tests.FirmexLoginPageTest">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.firmex.tests.FirmexLoginPageTest@5f341870]" name="setUP" is-config="true" duration-ms="16450" started-at="2020-07-22T18:29:20Z" finished-at="2020-07-22T18:29:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="verifyfirmexLoginPageTest()[pri:1, instance:com.firmex.tests.FirmexLoginPageTest@5f341870]" name="verifyfirmexLoginPageTest" duration-ms="2012" started-at="2020-07-22T18:29:36Z" finished-at="2020-07-22T18:29:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyfirmexLoginPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.firmex.tests.FirmexLoginPageTest@5f341870]" name="tearDown" is-config="true" duration-ms="8823" started-at="2020-07-22T18:29:38Z" finished-at="2020-07-22T18:29:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.firmex.tests.FirmexLoginPageTest@5f341870]" name="setUP" is-config="true" duration-ms="13364" started-at="2020-07-22T18:30:15Z" finished-at="2020-07-22T18:30:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="verifyloginwithInvalidEmail()[pri:2, instance:com.firmex.tests.FirmexLoginPageTest@5f341870]" name="verifyloginwithInvalidEmail" duration-ms="2174" started-at="2020-07-22T18:30:28Z" depends-on-methods="com.firmex.tests.FirmexLoginPageTest.verifyfirmexLoginPageTest" finished-at="2020-07-22T18:30:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginwithInvalidEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.firmex.tests.FirmexLoginPageTest@5f341870]" name="tearDown" is-config="true" duration-ms="14470" started-at="2020-07-22T18:30:30Z" finished-at="2020-07-22T18:30:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.firmex.tests.FirmexLoginPageTest@5f341870]" name="setUP" is-config="true" duration-ms="15157" started-at="2020-07-22T18:30:45Z" finished-at="2020-07-22T18:31:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="verifyloginwithInvalidPassword()[pri:3, instance:com.firmex.tests.FirmexLoginPageTest@5f341870]" name="verifyloginwithInvalidPassword" duration-ms="3912" started-at="2020-07-22T18:31:00Z" depends-on-methods="com.firmex.tests.FirmexLoginPageTest.verifyloginwithInvalidEmail, com.firmex.tests.FirmexLoginPageTest.verifyfirmexLoginPageTest" finished-at="2020-07-22T18:31:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginwithInvalidPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.firmex.tests.FirmexLoginPageTest@5f341870]" name="tearDown" is-config="true" duration-ms="10374" started-at="2020-07-22T18:31:04Z" finished-at="2020-07-22T18:31:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.firmex.tests.FirmexLoginPageTest -->
+      <class name="com.firmex.API.LoginAPITest">
+        <test-method status="PASS" signature="firmexLogin()[pri:0, instance:com.firmex.API.LoginAPITest@553f17c]" name="firmexLogin" duration-ms="3244" started-at="2020-07-22T18:28:49Z" finished-at="2020-07-22T18:28:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firmexLogin -->
+      </class> <!-- com.firmex.API.LoginAPITest -->
+    </test> <!-- Firmex Login Test Cases -->
+  </suite> <!-- Firmex Test Automation Suite -->
+</testng-results>

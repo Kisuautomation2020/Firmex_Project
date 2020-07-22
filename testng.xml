@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Firmex Test Automation Suite" parallel="false">
+	<test name="Firmex Login Test Cases">
+
+		<classes>
+			<class name="com.firmex.tests.FirmexHomePageTest" />
+			<class name="com.firmex.tests.FirmexLoginPageTest" />
+			<class name="com.firmex.API.LoginAPITest" />
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
