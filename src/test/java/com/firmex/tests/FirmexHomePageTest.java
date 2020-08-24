@@ -20,6 +20,7 @@ public class FirmexHomePageTest extends TestBase {
 	public FirmexHomePageTest() {
 		super();
 	}
+	
 
 	@BeforeMethod
 	public void setUP() {

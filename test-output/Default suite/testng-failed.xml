@@ -3,12 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.firmex.tests.FirmexLoginPageTest">
+      <class name="com.firmex.tests.FirmexHomePageTest">
         <methods>
+          <include name="verifyfirmexHomePageTest"/>
+          <include name="clickonloginBtnTest"/>
           <include name="setUP"/>
-          <include name="verifyFirmexLoginPageTest"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.firmex.tests.FirmexLoginPageTest -->
+      </class> <!-- com.firmex.tests.FirmexHomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
